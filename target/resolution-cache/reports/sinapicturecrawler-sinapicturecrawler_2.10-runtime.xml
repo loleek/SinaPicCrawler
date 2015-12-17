@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="sinapicturecrawler"
+		module="sinapicturecrawler_2.10"
+		revision="1.0.0"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20151216154537"/>
+	<dependencies>
+		<module organisation="io.spray" name="spray-routing_2.10">
+			<revision name="1.3.2" status="release" pubdate="20141008215217" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="19">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3663" time="0" location="C:\Users\lolee_k\.ivy2\cache\io.spray\spray-routing_2.10\ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/io/spray/spray-routing_2.10/1.3.2/spray-routing_2.10-1.3.2.pom"/>
+				<caller organisation="sinapicturecrawler" name="sinapicturecrawler_2.10" conf="compile, runtime" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="spray-routing_2.10" type="bundle" ext="jar" status="no" details="" size="1093684" time="0" location="C:\Users\lolee_k\.ivy2\cache\io.spray\spray-routing_2.10\bundles\spray-routing_2.10-1.3.2.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/io/spray/spray-routing_2.10/1.3.2/spray-routing_2.10-1.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.chuusai" name="shapeless_2.10">
+			<revision name="1.2.4" status="release" pubdate="20130227035121" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="Apache License" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="2679" time="0" location="C:\Users\lolee_k\.ivy2\cache\com.chuusai\shapeless_2.10\ivy-1.2.4.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/com/chuusai/shapeless_2.10/1.2.4/shapeless_2.10-1.2.4.pom"/>
+				<caller organisation="io.spray" name="spray-routing_2.10" conf="default, compile, runtime, master" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.3.2"/>
+				<artifacts>
+					<artifact name="shapeless_2.10" type="jar" ext="jar" status="no" details="" size="1280423" time="0" location="C:\Users\lolee_k\.ivy2\cache\com.chuusai\shapeless_2.10\jars\shapeless_2.10-1.2.4.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/com/chuusai/shapeless_2.10/1.2.4/shapeless_2.10-1.2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-httpx_2.10">
+			<revision name="1.3.2" status="release" pubdate="20141008215359" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4400" time="0" location="C:\Users\lolee_k\.ivy2\cache\io.spray\spray-httpx_2.10\ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/io/spray/spray-httpx_2.10/1.3.2/spray-httpx_2.10-1.3.2.pom"/>
+				<caller organisation="io.spray" name="spray-routing_2.10" conf="default, compile, runtime, master" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.3.2"/>
+				<artifacts>
+					<artifact name="spray-httpx_2.10" type="bundle" ext="jar" status="no" details="" size="463573" time="0" location="C:\Users\lolee_k\.ivy2\cache\io.spray\spray-httpx_2.10\bundles\spray-httpx_2.10-1.3.2.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/io/spray/spray-httpx_2.10/1.3.2/spray-httpx_2.10-1.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jvnet.mimepull" name="mimepull">
+			<revision name="1.9.4" status="release" pubdate="20131112184917" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://mimepull.java.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="CDDL 1.1" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<license name="GPL2 w/ CPE" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="3865" time="0" location="C:\Users\lolee_k\.ivy2\cache\org.jvnet.mimepull\mimepull\ivy-1.9.4.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/org/jvnet/mimepull/mimepull/1.9.4/mimepull-1.9.4.pom"/>
+				<caller organisation="io.spray" name="spray-httpx_2.10" conf="compile, runtime" rev="1.9.4" rev-constraint-default="1.9.4" rev-constraint-dynamic="1.9.4" callerrev="1.3.2"/>
+				<artifacts>
+					<artifact name="mimepull" type="jar" ext="jar" status="no" details="" size="63134" time="0" location="C:\Users\lolee_k\.ivy2\cache\org.jvnet.mimepull\mimepull\jars\mimepull-1.9.4.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/org/jvnet/mimepull/mimepull/1.9.4/mimepull-1.9.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-can_2.10">
+			<revision name="1.3.2" status="release" pubdate="20141008215135" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3461" time="0" location="C:\Users\lolee_k\.ivy2\cache\io.spray\spray-can_2.10\ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/io/spray/spray-can_2.10/1.3.2/spray-can_2.10-1.3.2.pom"/>
+				<caller organisation="sinapicturecrawler" name="sinapicturecrawler_2.10" conf="compile, runtime" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="spray-can_2.10" type="bundle" ext="jar" status="no" details="" size="734369" time="0" location="C:\Users\lolee_k\.ivy2\cache\io.spray\spray-can_2.10\bundles\spray-can_2.10-1.3.2.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/io/spray/spray-can_2.10/1.3.2/spray-can_2.10-1.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-io_2.10">
+			<revision name="1.3.2" status="release" pubdate="20141008215459" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3220" time="0" location="C:\Users\lolee_k\.ivy2\cache\io.spray\spray-io_2.10\ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/io/spray/spray-io_2.10/1.3.2/spray-io_2.10-1.3.2.pom"/>
+				<caller organisation="io.spray" name="spray-can_2.10" conf="default, compile, runtime, master" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.3.2"/>
+				<artifacts>
+					<artifact name="spray-io_2.10" type="bundle" ext="jar" status="no" details="" size="194129" time="0" location="C:\Users\lolee_k\.ivy2\cache\io.spray\spray-io_2.10\bundles\spray-io_2.10-1.3.2.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/io/spray/spray-io_2.10/1.3.2/spray-io_2.10-1.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-http_2.10">
+			<revision name="1.3.2" status="release" pubdate="20141008215331" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3201" time="0" location="C:\Users\lolee_k\.ivy2\cache\io.spray\spray-http_2.10\ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/io/spray/spray-http_2.10/1.3.2/spray-http_2.10-1.3.2.pom"/>
+				<caller organisation="io.spray" name="spray-routing_2.10" conf="default, compile, runtime, master" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.3.2"/>
+				<caller organisation="io.spray" name="spray-can_2.10" conf="default, compile, runtime, master" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.3.2"/>
+				<caller organisation="io.spray" name="spray-httpx_2.10" conf="compile, runtime" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.3.2"/>
+				<caller organisation="io.spray" name="spray-io_2.10" conf="compile, runtime" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.3.2"/>
+				<artifacts>
+					<artifact name="spray-http_2.10" type="bundle" ext="jar" status="no" details="" size="1525741" time="0" location="C:\Users\lolee_k\.ivy2\cache\io.spray\spray-http_2.10\bundles\spray-http_2.10-1.3.2.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/io/spray/spray-http_2.10/1.3.2/spray-http_2.10-1.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-scala_2.10">
+			<revision name="1.1.6" status="release" pubdate="20130826185413" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3005" time="0" location="C:\Users\lolee_k\.ivy2\cache\org.parboiled\parboiled-scala_2.10\ivy-1.1.6.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/org/parboiled/parboiled-scala_2.10/1.1.6/parboiled-scala_2.10-1.1.6.pom"/>
+				<caller organisation="io.spray" name="spray-http_2.10" conf="compile, runtime" rev="1.1.6" rev-constraint-default="1.1.6" rev-constraint-dynamic="1.1.6" callerrev="1.3.2"/>
+				<artifacts>
+					<artifact name="parboiled-scala_2.10" type="bundle" ext="jar" status="no" details="" size="237780" time="0" location="C:\Users\lolee_k\.ivy2\cache\org.parboiled\parboiled-scala_2.10\bundles\parboiled-scala_2.10-1.1.6.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/org/parboiled/parboiled-scala_2.10/1.1.6/parboiled-scala_2.10-1.1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-core">
+			<revision name="1.1.6" status="release" pubdate="20130822233221" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2699" time="0" location="C:\Users\lolee_k\.ivy2\cache\org.parboiled\parboiled-core\ivy-1.1.6.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.pom"/>
+				<caller organisation="org.parboiled" name="parboiled-scala_2.10" conf="compile, runtime" rev="1.1.6" rev-constraint-default="1.1.6" rev-constraint-dynamic="1.1.6" callerrev="1.1.6"/>
+				<artifacts>
+					<artifact name="parboiled-core" type="bundle" ext="jar" status="no" details="" size="187091" time="0" location="C:\Users\lolee_k\.ivy2\cache\org.parboiled\parboiled-core\bundles\parboiled-core-1.1.6.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/org/parboiled/parboiled-core/1.1.6/parboiled-core-1.1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-util_2.10">
+			<revision name="1.3.2" status="release" pubdate="20141008215156" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3188" time="0" location="C:\Users\lolee_k\.ivy2\cache\io.spray\spray-util_2.10\ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/io/spray/spray-util_2.10/1.3.2/spray-util_2.10-1.3.2.pom"/>
+				<caller organisation="io.spray" name="spray-routing_2.10" conf="default, compile, runtime, master" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.3.2"/>
+				<caller organisation="io.spray" name="spray-can_2.10" conf="default, compile, runtime, master" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.3.2"/>
+				<caller organisation="io.spray" name="spray-httpx_2.10" conf="compile, runtime" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.3.2"/>
+				<caller organisation="io.spray" name="spray-io_2.10" conf="compile, runtime" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.3.2"/>
+				<caller organisation="io.spray" name="spray-http_2.10" conf="compile, runtime" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.3.2"/>
+				<artifacts>
+					<artifact name="spray-util_2.10" type="bundle" ext="jar" status="no" details="" size="129242" time="0" location="C:\Users\lolee_k\.ivy2\cache\io.spray\spray-util_2.10\bundles\spray-util_2.10-1.3.2.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/io/spray/spray-util_2.10/1.3.2/spray-util_2.10-1.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.4" status="release" pubdate="20150128045722" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<metadata-artifact status="no" details="" size="10652" time="0" location="C:\Users\lolee_k\.ivy2\cache\org.apache.httpcomponents\httpclient\ivy-4.4.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/org/apache/httpcomponents/httpclient/4.4/httpclient-4.4.pom"/>
+				<caller organisation="sinapicturecrawler" name="sinapicturecrawler_2.10" conf="compile, runtime" rev="4.4" rev-constraint-default="4.4" rev-constraint-dynamic="4.4" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="719304" time="0" location="C:\Users\lolee_k\.ivy2\cache\org.apache.httpcomponents\httpclient\jars\httpclient-4.4.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/org/apache/httpcomponents/httpclient/4.4/httpclient-4.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.9" status="release" pubdate="20131221115739" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<metadata-artifact status="no" details="" size="9948" time="0" location="C:\Users\lolee_k\.ivy2\cache\commons-codec\commons-codec\ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/commons-codec/commons-codec/1.9/commons-codec-1.9.pom"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="default, compile, runtime, master" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="4.4"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="263965" time="0" location="C:\Users\lolee_k\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.9.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/commons-codec/commons-codec/1.9/commons-codec-1.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.4" status="release" pubdate="20141214203052" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<metadata-artifact status="no" details="" size="7694" time="0" location="C:\Users\lolee_k\.ivy2\cache\org.apache.httpcomponents\httpcore\ivy-4.4.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/org/apache/httpcomponents/httpcore/4.4/httpcore-4.4.pom"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="default, compile, runtime, master" rev="4.4" rev-constraint-default="4.4" rev-constraint-dynamic="4.4" callerrev="4.4"/>
+				<artifacts>
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="321639" time="0" location="C:\Users\lolee_k\.ivy2\cache\org.apache.httpcomponents\httpcore\jars\httpcore-4.4.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/org/apache/httpcomponents/httpcore/4.4/httpcore-4.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.2" status="release" pubdate="20140706021228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<metadata-artifact status="no" details="" size="11482" time="0" location="C:\Users\lolee_k\.ivy2\cache\commons-logging\commons-logging\ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/commons-logging/commons-logging/1.2/commons-logging-1.2.pom"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="default, compile, runtime, master" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="4.4"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="61829" time="0" location="C:\Users\lolee_k\.ivy2\cache\commons-logging\commons-logging\jars\commons-logging-1.2.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-slf4j_2.10">
+			<revision name="2.3.10" status="release" pubdate="20150423135319" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3112" time="0" location="C:\Users\lolee_k\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.10\ivy-2.3.10.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/com/typesafe/akka/akka-slf4j_2.10/2.3.10/akka-slf4j_2.10-2.3.10.pom"/>
+				<caller organisation="sinapicturecrawler" name="sinapicturecrawler_2.10" conf="compile, runtime" rev="2.3.10" rev-constraint-default="2.3.10" rev-constraint-dynamic="2.3.10" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="akka-slf4j_2.10" type="jar" ext="jar" status="no" details="" size="15521" time="0" location="C:\Users\lolee_k\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.10\jars\akka-slf4j_2.10-2.3.10.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/com/typesafe/akka/akka-slf4j_2.10/2.3.10/akka-slf4j_2.10-2.3.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.5" status="release" pubdate="20130326045215" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<metadata-artifact status="no" details="" size="4520" time="0" location="C:\Users\lolee_k\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.5.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="2.3.10"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="26084" time="0" location="C:\Users\lolee_k\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.5.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-remote_2.10">
+			<revision name="2.3.10" status="release" pubdate="20150423135348" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3869" time="0" location="C:\Users\lolee_k\.ivy2\cache\com.typesafe.akka\akka-remote_2.10\ivy-2.3.10.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/com/typesafe/akka/akka-remote_2.10/2.3.10/akka-remote_2.10-2.3.10.pom"/>
+				<caller organisation="sinapicturecrawler" name="sinapicturecrawler_2.10" conf="compile, runtime" rev="2.3.10" rev-constraint-default="2.3.10" rev-constraint-dynamic="2.3.10" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="akka-remote_2.10" type="jar" ext="jar" status="no" details="" size="1352094" time="0" location="C:\Users\lolee_k\.ivy2\cache\com.typesafe.akka\akka-remote_2.10\jars\akka-remote_2.10-2.3.10.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/com/typesafe/akka/akka-remote_2.10/2.3.10/akka-remote_2.10-2.3.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.uncommons.maths" name="uncommons-maths">
+			<revision name="1.2.2a" status="release" pubdate="20110408215605" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://maths.uncommons.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2783" time="0" location="C:\Users\lolee_k\.ivy2\cache\org.uncommons.maths\uncommons-maths\ivy-1.2.2a.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="default, compile, runtime, master" rev="1.2.2a" rev-constraint-default="1.2.2a" rev-constraint-dynamic="1.2.2a" callerrev="2.3.10"/>
+				<artifacts>
+					<artifact name="uncommons-maths" type="jar" ext="jar" status="no" details="" size="49019" time="0" location="C:\Users\lolee_k\.ivy2\cache\org.uncommons.maths\uncommons-maths\jars\uncommons-maths-1.2.2a.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.8.0.Final" status="release" pubdate="20131107172312" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6581" time="0" location="C:\Users\lolee_k\.ivy2\cache\io.netty\netty\ivy-3.8.0.Final.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="default, compile, runtime, master" rev="3.8.0.Final" rev-constraint-default="3.8.0.Final" rev-constraint-dynamic="3.8.0.Final" callerrev="2.3.10"/>
+				<artifacts>
+					<artifact name="netty" type="bundle" ext="jar" status="no" details="" size="1230201" time="0" location="C:\Users\lolee_k\.ivy2\cache\io.netty\netty\bundles\netty-3.8.0.Final.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="2.5.0" status="release" pubdate="20130308081811" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/protobuf" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3048" time="0" location="C:\Users\lolee_k\.ivy2\cache\com.google.protobuf\protobuf-java\ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="default, compile, runtime, master" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="2.3.10"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="bundle" ext="jar" status="no" details="" size="533455" time="0" location="C:\Users\lolee_k\.ivy2\cache\com.google.protobuf\protobuf-java\bundles\protobuf-java-2.5.0.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.10">
+			<revision name="2.3.10" status="release" pubdate="20150423135135" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2700" time="0" location="C:\Users\lolee_k\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\ivy-2.3.10.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/com/typesafe/akka/akka-actor_2.10/2.3.10/akka-actor_2.10-2.3.10.pom"/>
+				<caller organisation="sinapicturecrawler" name="sinapicturecrawler_2.10" conf="compile, runtime" rev="2.3.10" rev-constraint-default="2.3.10" rev-constraint-dynamic="2.3.10" callerrev="1.0.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="2.3.10" rev-constraint-default="2.3.10" rev-constraint-dynamic="2.3.10" callerrev="2.3.10"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="default, compile, runtime, master" rev="2.3.10" rev-constraint-default="2.3.10" rev-constraint-dynamic="2.3.10" callerrev="2.3.10"/>
+				<artifacts>
+					<artifact name="akka-actor_2.10" type="jar" ext="jar" status="no" details="" size="2605169" time="0" location="C:\Users\lolee_k\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.10.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/com/typesafe/akka/akka-actor_2.10/2.3.10/akka-actor_2.10-2.3.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.2.1" status="release" pubdate="20140502225416" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2786" time="0" location="C:\Users\lolee_k\.ivy2\cache\com.typesafe\config\ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/com/typesafe/config/1.2.1/config-1.2.1.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="default, compile, runtime, master" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="2.3.10"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="219554" time="0" location="C:\Users\lolee_k\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar">
+						<origin-location is-local="false" location="http://maven.oschina.net/content/groups/public/com/typesafe/config/1.2.1/config-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.4" status="release" pubdate="20140319054629" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2517" time="0" location="C:\Users\lolee_k\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="http://maven.oschina.net/content/groups/public/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom"/>
+				<caller organisation="org.parboiled" name="parboiled-scala_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.2" callerrev="1.1.6"/>
+				<caller organisation="io.spray" name="spray-util_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.3.2"/>
+				<caller organisation="sinapicturecrawler" name="sinapicturecrawler_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.0.0"/>
+				<caller organisation="com.chuusai" name="shapeless_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.0" callerrev="1.2.4"/>
+				<caller organisation="io.spray" name="spray-routing_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.3.2"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.3.10"/>
+				<caller organisation="io.spray" name="spray-can_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.3.2"/>
+				<caller organisation="io.spray" name="spray-httpx_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.3.2"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.3.10"/>
+				<caller organisation="io.spray" name="spray-io_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.3.2"/>
+				<caller organisation="com.typesafe.akka" name="akka-remote_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.3.10"/>
+				<caller organisation="io.spray" name="spray-http_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="1.3.2"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7126372" time="0" location="C:\Users\lolee_k\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.4.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

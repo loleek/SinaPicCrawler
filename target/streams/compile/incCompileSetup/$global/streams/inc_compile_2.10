@@ -1,0 +1,389 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.4
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+24 items
+F:\scala-workspace\SinaPicCrawler\src\main\scala\core\Main.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\core\Main$.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\core\Main.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\core\Main.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\master\DataRecorder$$anonfun$receive$1.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\master\DataRecorder.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\master\Master$$anonfun$receive$1$$anonfun$applyOrElse$1.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\master\Master$$anonfun$receive$1.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\master\Master.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\master\PidManager$$anonfun$receive$1.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\master\PidManager.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\slave\Slave$$anonfun$receive$1.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\slave\Slave.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Spider.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\slave\Spider$$anonfun$receive$1.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Spider.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\slave\Spider.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\util\Messages$.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\util\Messages$MasterInfo$.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\util\Messages$MasterInfo.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\util\Messages$Register$.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\util\Messages$Register.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\util\Messages$Shutdown$.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\util\Messages$Start$.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\util\Messages$Stop$.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\util\Messages$Unregister$.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\util\Messages$Unregister.class
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\util\Messages.class
+binary dependencies:
+20 items
+F:\scala-workspace\SinaPicCrawler\src\main\scala\core\Main.scala -> C:\Users\lolee_k\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+F:\scala-workspace\SinaPicCrawler\src\main\scala\core\Main.scala -> D:\Java\jdk1.8.0_25\jre\lib\rt.jar
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala -> C:\Users\lolee_k\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.10.jar
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala -> C:\Users\lolee_k\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala -> D:\Java\jdk1.8.0_25\jre\lib\rt.jar
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> C:\Users\lolee_k\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.10.jar
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> C:\Users\lolee_k\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> D:\Java\jdk1.8.0_25\jre\lib\rt.jar
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> C:\Users\lolee_k\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.10.jar
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> C:\Users\lolee_k\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> D:\Java\jdk1.8.0_25\jre\lib\rt.jar
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> C:\Users\lolee_k\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.10.jar
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> C:\Users\lolee_k\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> D:\Java\jdk1.8.0_25\jre\lib\rt.jar
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Spider.scala -> C:\Users\lolee_k\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.10.jar
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Spider.scala -> C:\Users\lolee_k\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Spider.scala -> D:\Java\jdk1.8.0_25\jre\lib\rt.jar
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> C:\Users\lolee_k\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.10.jar
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> C:\Users\lolee_k\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> D:\Java\jdk1.8.0_25\jre\lib\rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+4 items
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+24 items
+F:\scala-workspace\SinaPicCrawler\src\main\scala\core\Main.scala -> core.Main
+F:\scala-workspace\SinaPicCrawler\src\main\scala\core\Main.scala -> core.Main$
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala -> master.DataRecorder
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala -> master.DataRecorder$$anonfun$receive$1
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> master.Master
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> master.Master$$anonfun$receive$1
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> master.Master$$anonfun$receive$1$$anonfun$applyOrElse$1
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> master.PidManager
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> master.PidManager$$anonfun$receive$1
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> slave.Slave
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> slave.Slave$$anonfun$receive$1
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Spider.scala -> slave.Spider
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Spider.scala -> slave.Spider$$anonfun$receive$1
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> util.Messages
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> util.Messages$
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> util.Messages$MasterInfo
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> util.Messages$MasterInfo$
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> util.Messages$Register
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> util.Messages$Register$
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> util.Messages$Shutdown$
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> util.Messages$Start$
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> util.Messages$Stop$
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> util.Messages$Unregister
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> util.Messages$Unregister$
+used names:
+191 items
+F:\scala-workspace\SinaPicCrawler\src\main\scala\core\Main.scala -> <init>
+F:\scala-workspace\SinaPicCrawler\src\main\scala\core\Main.scala -> AnyRef
+F:\scala-workspace\SinaPicCrawler\src\main\scala\core\Main.scala -> Array
+F:\scala-workspace\SinaPicCrawler\src\main\scala\core\Main.scala -> Main
+F:\scala-workspace\SinaPicCrawler\src\main\scala\core\Main.scala -> Predef
+F:\scala-workspace\SinaPicCrawler\src\main\scala\core\Main.scala -> String
+F:\scala-workspace\SinaPicCrawler\src\main\scala\core\Main.scala -> Unit
+F:\scala-workspace\SinaPicCrawler\src\main\scala\core\Main.scala -> core
+F:\scala-workspace\SinaPicCrawler\src\main\scala\core\Main.scala -> scala
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala -> <init>
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala -> A1
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala -> Actor
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala -> B1
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala -> DataRecorder
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala -> Function1
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala -> actor
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala -> akka
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala -> asInstanceOf
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala -> master
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala -> scala
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala -> unchecked
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> !
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> +=
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> -=
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> ->
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> <init>
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> ==
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> A1
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> Actor
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> ActorRef
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> B1
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> ClassTag
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> DataRecorder
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> Function1
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> HashMap
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> Master
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> MasterInfo
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> Messages
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> PidManager
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> PoisonPill
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> Predef
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> Props
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> Register
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> Shutdown
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> Stop
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> String
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> Unregister
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> actor
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> actorOf
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> actorRef2Scala
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> akka
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> any2ArrowAssoc
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> apply
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> asInstanceOf
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> collection
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> context
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> dataRecorder
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> empty
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> foreach
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> hostname
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> hosts
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> isEmpty
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> isInstanceOf
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> master
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> materializeClassTag
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> mutable
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> package
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> pidManager
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> ref
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> scala
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> self
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> sender
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> slaveref
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> unchecked
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> util
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> values
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> <init>
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> A1
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> Actor
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> B1
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> Function1
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> HashMap
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> PidManager
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> Predef
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> String
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> actor
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> akka
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> asInstanceOf
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> collection
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> empty
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> master
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> mutable
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> scala
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> tasks
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> unchecked
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> !
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> <init>
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> ==
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> A1
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> Actor
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> ActorRef
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> ActorSelection
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> B1
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> Function1
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> InetAddress
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> MasterInfo
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> Messages
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> None
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> Option
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> PoisonPill
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> Register
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> Slave
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> Start
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> Stop
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> Unregister
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> actor
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> actorRef2Scala
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> actorSelection
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> akka
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> apply
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> asInstanceOf
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> context
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> dataRecorderRef
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> dataRecorderRef_=
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> drref
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> getHostName
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> getLocalHost
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> hostname
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> isInstanceOf
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> java
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> masterRef
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> net
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> package
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> pidManagerRef
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> pidManagerRef_=
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> pmref
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> scala
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> self
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> slave
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> toScala
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> unchecked
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> util
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Spider.scala -> <init>
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Spider.scala -> A1
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Spider.scala -> Actor
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Spider.scala -> B1
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Spider.scala -> Function1
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Spider.scala -> Spider
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Spider.scala -> actor
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Spider.scala -> akka
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Spider.scala -> asInstanceOf
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Spider.scala -> scala
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Spider.scala -> slave
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Spider.scala -> unchecked
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> &&
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> <init>
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> ==
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> AbstractFunction1
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> AbstractFunction2
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> ActorRef
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> AnyRef
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> MasterInfo
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> Messages
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> None
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> Predef
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> Product
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> Register
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> ScalaRunTime
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> Serializable
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> Shutdown
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> Start
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> Stop
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> String
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> Unregister
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> _hashCode
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> _toString
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> actor
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> akka
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> asInstanceOf
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> dataRecorderRef
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> eq
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> hostname
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> isInstanceOf
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> pidManagerRef
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> runtime
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> scala
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> slaveref
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> toString
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> typedProductIterator
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> util
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> ||
+product stamps:
+24 items
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\core\Main$.class -> lastModified(1450148872306)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\core\Main.class -> lastModified(1450148872277)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\master\DataRecorder$$anonfun$receive$1.class -> lastModified(1450148872342)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\master\DataRecorder.class -> lastModified(1450148872332)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\master\Master$$anonfun$receive$1$$anonfun$applyOrElse$1.class -> lastModified(1450148872390)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\master\Master$$anonfun$receive$1.class -> lastModified(1450148872381)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\master\Master.class -> lastModified(1450148872363)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\master\PidManager$$anonfun$receive$1.class -> lastModified(1450148872408)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\master\PidManager.class -> lastModified(1450148872404)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\slave\Slave$$anonfun$receive$1.class -> lastModified(1450148872437)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\slave\Slave.class -> lastModified(1450148872427)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\slave\Spider$$anonfun$receive$1.class -> lastModified(1450148872452)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\slave\Spider.class -> lastModified(1450148872449)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\util\Messages$.class -> lastModified(1450148872460)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\util\Messages$MasterInfo$.class -> lastModified(1450148872466)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\util\Messages$MasterInfo.class -> lastModified(1450148872478)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\util\Messages$Register$.class -> lastModified(1450148872494)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\util\Messages$Register.class -> lastModified(1450148872487)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\util\Messages$Shutdown$.class -> lastModified(1450148872503)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\util\Messages$Start$.class -> lastModified(1450148872509)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\util\Messages$Stop$.class -> lastModified(1450148872515)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\util\Messages$Unregister$.class -> lastModified(1450148872528)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\util\Messages$Unregister.class -> lastModified(1450148872523)
+F:\scala-workspace\SinaPicCrawler\target\scala-2.10\classes\util\Messages.class -> lastModified(1450148872457)
+source stamps:
+7 items
+F:\scala-workspace\SinaPicCrawler\src\main\scala\core\Main.scala -> hash(79d5a893b68e51e535c8d8bfd0f5c1595f58766b)
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala -> hash(1e84f2f8e6f960a2403f779c80032dc42bbf2a50)
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> hash(d2d18c133ad542101e6f8b85ee858a825200e984)
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> hash(1c9d8a0e4ce6fd7c317732ad8b0d97e00f6ec06f)
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> hash(9cb205e84e0afbc58f44ec2d6506373831ebaccc)
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Spider.scala -> hash(cb024b0871e804b150c1ceca0e87ba6e0b8b0b1d)
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> hash(1c5e6b4aac8b88682dc30ba62607ca8470ed9a3a)
+binary stamps:
+3 items
+C:\Users\lolee_k\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.10.jar -> lastModified(1429768298000)
+C:\Users\lolee_k\.sbt\boot\scala-2.10.4\lib\scala-library.jar -> lastModified(1395179187000)
+D:\Java\jdk1.8.0_25\jre\lib\rt.jar -> lastModified(1449982067540)
+class names:
+3 items
+C:\Users\lolee_k\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.10.jar -> akka.actor.ActorRef
+C:\Users\lolee_k\.sbt\boot\scala-2.10.4\lib\scala-library.jar -> scala.runtime.AbstractFunction1
+D:\Java\jdk1.8.0_25\jre\lib\rt.jar -> java.lang.Object
+internal apis:
+7 items
+F:\scala-workspace\SinaPicCrawler\src\main\scala\core\Main.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCR2t4qAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cOHT9F90AAZub3RpZnlzcQB+AAxllCCTdAAEd2FpdHNxAH4ADHYxPSh0AA0kYXNJbnN0YW5jZU9mc3EAfgAMuUnu2HQABmVxdWFsc3NxAH4ADIqHz3Z0AAxhc0luc3RhbmNlT2ZzcQB+AAx+Jv+hdAAMc3luY2hyb25pemVkc3EAfgAME68yfHQADSRpc0luc3RhbmNlT2ZzcQB+AAxWQpVSdAAEbWFpbnNxAH4ADPtFERF0AAlub3RpZnlBbGxzcQB+AAx4sv05dAAMaXNJbnN0YW5jZU9mc3EAfgAMcwxkpXQAAj09c3EAfgAMKcJF2HQABWNsb25lc3EAfgAM6KZr8nQABE1haW5zcQB+AAwbXc5edAAIdG9TdHJpbmdzcQB+AAwaxTOzdAACIT1zcQB+AAw5SxpzdAAIZ2V0Q2xhc3NzcQB+AAy/w9n2dAACbmVzcQB+AAyNr3gldAACZXFzcQB+AAzFXguKdAACIyNzcQB+AAz7WTmLdAAIZmluYWxpemVzcQB+AAw33eoSdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBBeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAJY29yZS5NYWludXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AWnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWQBwc3EAfgBec3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AYnNxAH4AWQBwc3EAfgBedXEAfgA8AAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBCcQB+AEt1cQB+AEwAAAAAc3EAfgBOAHEAfgAddXEAfgBRAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGF0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBhc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB/dXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AbHhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AVHQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4Ac1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AYXNxAH4AcnQABUFycmF5cQB+AHh1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AcnQABlN0cmluZ3NxAH4AdnNxAH4AeXVxAH4AfAAAAANzcQB+AH50AARqYXZhc3EAfgB+dAAEbGFuZ3EAfgCDc3EAfgBZAHBzcQB+AF51cQB+ADwAAAAAc3EAfgBZAHBzcQB+AF51cQB+AJcAAAACc3EAfgBydAAGT2JqZWN0cQB+AJtzcQB+AHJ0AANBbnlxAH4AeHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABGNvcmVzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVGjm6k5dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAO0Y6XHNjYWxhLXdvcmtzcGFjZVxTaW5hUGljQ3Jhd2xlclx0YXJnZXRcc2NhbGEtMi4xMFxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUedWok7aOUeU1yNi/0PXBWV9Ydms=
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCdZ5EoAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwne1BdXQABHNlbGZzcQB+AAtd582TdAAHY29udGV4dHVxAH4ACQAAACNzcQB+AAvH2ivadAAGbm90aWZ5c3EAfgAL4FISWHQAB1JlY2VpdmVzcQB+AAuQVpbzdAAEd2FpdHNxAH4AC44YMl10AA0kYXNJbnN0YW5jZU9mc3EAfgALuIMWuHQABmVxdWFsc3NxAH4AC1B5K5h0AAxhc0luc3RhbmNlT2ZzcQB+AAvMPGvQdAAMc3luY2hyb25pemVkc3EAfgALOshp3XQADSRpc0luc3RhbmNlT2ZzcQB+AAs8x7k4dAAHcmVjZWl2ZXNxAH4ACzDR6vx0AApwcmVSZXN0YXJ0c3EAfgALaX9L8XQADWFyb3VuZFJlY2VpdmVzcQB+AAvOI++vdAALcG9zdFJlc3RhcnRzcQB+AAtySCD/dAAIcG9zdFN0b3BzcQB+AAvYVC+odAAJbm90aWZ5QWxsc3EAfgALYCjXG3QAEWFyb3VuZFBvc3RSZXN0YXJ0c3EAfgALZ7HornQADGlzSW5zdGFuY2VPZnNxAH4AC6yc1v50ABBhcm91bmRQcmVSZXN0YXJ0c3EAfgALHaERPnQADmFyb3VuZFBvc3RTdG9wc3EAfgALaJCB83QABjxpbml0PnNxAH4AC20gx110AAhwcmVTdGFydHNxAH4AC633vYl0AAl1bmhhbmRsZWRzcQB+AAuZbyLydAACPT1zcQB+AAsCB+xLdAAFY2xvbmVzcQB+AAsypMMddAAGc2VuZGVyc3EAfgALc5++NXQACHRvU3RyaW5nc3EAfgAL8cx7fHQAAiE9c3EAfgALXq3FhXQACGdldENsYXNzc3EAfgALU3+0j3QADERhdGFSZWNvcmRlcnNxAH4ACzNh4xJ0AAJuZXNxAH4AC6RLzaN0ABJzdXBlcnZpc29yU3RyYXRlZ3lzcQB+AAsmUC0ydAACZXFzcQB+AAtGNC3ydAACIyNzcQB+AAtUiDaTdAAIZmluYWxpemVzcQB+AAvrV/2RdAAIaGFzaENvZGVzcQB+AAvGwWgAdAAOYXJvdW5kUHJlU3RhcnRzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBheHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAATbWFzdGVyLkRhdGFSZWNvcmRlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4Aenhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AeQBwc3EAfgB+c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AGFMAAlpbmhlcml0ZWRxAH4AYUwAB3BhcmVudHNxAH4AYXhxAH4AgnNxAH4AeQBwc3EAfgB+dXEAfgBcAAAAAHNxAH4AeQBwc3EAfgB+dXEAfgBcAAAAAHNxAH4AeQBwc3EAfgB+dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCBdAAFQWN0b3JzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AIFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGFra2FzcQB+AJ50AAVhY3RvcnNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCfc3EAfgCSdAAGT2JqZWN0c3EAfgCWc3EAfgCZdXEAfgCcAAAAA3NxAH4AnnQABGphdmFzcQB+AJ50AARsYW5ncQB+AKVzcQB+AJJ0AANBbnlzcQB+AJZzcQB+AJl1cQB+AJwAAAACc3EAfgCedAAFc2NhbGFxAH4ApXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQABm1hc3RlcnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUaObqTl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdAA7Rjpcc2NhbGEtd29ya3NwYWNlXFNpbmFQaWNDcmF3bGVyXHRhcmdldFxzY2FsYS0yLjEwXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQehPL45vlgokA/d5yAAy3EK78qUA==
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDhbEPQAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwYxM/eXQABHNlbGZzcQB+AAsKw7PVdAAHY29udGV4dHVxAH4ACQAAACZzcQB+AAsMGqNYdAAGbm90aWZ5c3EAfgAL8EB5oXQAB1JlY2VpdmVzcQB+AAuiO3gKdAAEd2FpdHNxAH4AC/U0kj90AAZNYXN0ZXJzcQB+AAtAJtFRdAANJGFzSW5zdGFuY2VPZnNxAH4AC2vg4cB0AAZlcXVhbHNzcQB+AAvSI27+dAAMYXNJbnN0YW5jZU9mc3EAfgALh9RP9HQADGRhdGFSZWNvcmRlcnNxAH4AC7Qzr5d0AAxzeW5jaHJvbml6ZWRzcQB+AAsr4c2pdAANJGlzSW5zdGFuY2VPZnNxAH4ACxTBBf10AAdyZWNlaXZlc3EAfgALZR3KP3QACnByZVJlc3RhcnRzcQB+AAuY9KXmdAANYXJvdW5kUmVjZWl2ZXNxAH4AC+8m2YB0AAtwb3N0UmVzdGFydHNxAH4AC1hclBJ0AAhwb3N0U3RvcHNxAH4AC2UZQfZ0AAlub3RpZnlBbGxzcQB+AAvP7l/7dAARYXJvdW5kUG9zdFJlc3RhcnRzcQB+AAtIM2nrdAAMaXNJbnN0YW5jZU9mc3EAfgALryY7x3QAEGFyb3VuZFByZVJlc3RhcnRzcQB+AAuVjdcxdAAOYXJvdW5kUG9zdFN0b3BzcQB+AAuFDCIBdAAGPGluaXQ+c3EAfgALHZlkXHQACHByZVN0YXJ0c3EAfgAL47EX/3QACXVuaGFuZGxlZHNxAH4AC47dLPx0AAVob3N0c3NxAH4AC6gtDGZ0AAI9PXNxAH4AC/kPc8d0AAVjbG9uZXNxAH4AC1wLSol0AAZzZW5kZXJzcQB+AAtE4I7KdAAIdG9TdHJpbmdzcQB+AAucbi6TdAACIT1zcQB+AAsC+oAOdAAIZ2V0Q2xhc3NzcQB+AAsvnLETdAAKcGlkTWFuYWdlcnNxAH4AC1/bMjZ0AAJuZXNxAH4ACyRfeyR0ABJzdXBlcnZpc29yU3RyYXRlZ3lzcQB+AAvtxpYVdAACZXFzcQB+AAvi6z0jdAACIyNzcQB+AAtTkU+odAAIZmluYWxpemVzcQB+AAsiQkTJdAAIaGFzaENvZGVzcQB+AAvwIVaIdAAOYXJvdW5kUHJlU3RhcnRzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBneHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAANbWFzdGVyLk1hc3RlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AgHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AfwBwc3EAfgCEc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AGdMAAlpbmhlcml0ZWRxAH4AZ0wAB3BhcmVudHNxAH4AZ3hxAH4AiHNxAH4AfwBwc3EAfgCEdXEAfgBiAAAAAHNxAH4AfwBwc3EAfgCEdXEAfgBiAAAAAHNxAH4AfwBwc3EAfgCEdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCHdAAFQWN0b3JzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AIdzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGFra2FzcQB+AKR0AAVhY3RvcnNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgClc3EAfgCYdAAGT2JqZWN0c3EAfgCcc3EAfgCfdXEAfgCiAAAAA3NxAH4ApHQABGphdmFzcQB+AKR0AARsYW5ncQB+AKtzcQB+AJh0AANBbnlzcQB+AJxzcQB+AJ91cQB+AKIAAAACc3EAfgCkdAAFc2NhbGFxAH4Aq3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQABm1hc3RlcnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUaObqTl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdAA7Rjpcc2NhbGEtd29ya3NwYWNlXFNpbmFQaWNDcmF3bGVyXHRhcmdldFxzY2FsYS0yLjEwXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTS0YwTOtVCEB5vi4XuhYqCUgDphA==
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDsFjxVAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hws0V6pnQABHNlbGZzcQB+AAsYIYMsdAAHY29udGV4dHVxAH4ACQAAACRzcQB+AAvh16YKdAAGbm90aWZ5c3EAfgAL0HBwbnQAB1JlY2VpdmVzcQB+AAtHqV1hdAAEd2FpdHNxAH4ACzgDHHh0AA0kYXNJbnN0YW5jZU9mc3EAfgAL0HJV/XQAClBpZE1hbmFnZXJzcQB+AAs7y5r2dAAGZXF1YWxzc3EAfgALyxSS13QADGFzSW5zdGFuY2VPZnNxAH4AC9jF+R90AAxzeW5jaHJvbml6ZWRzcQB+AAud8dh7dAANJGlzSW5zdGFuY2VPZnNxAH4AC6eNXHF0AAdyZWNlaXZlc3EAfgALitNzknQACnByZVJlc3RhcnRzcQB+AAu7Ud2zdAANYXJvdW5kUmVjZWl2ZXNxAH4AC4zUyep0AAtwb3N0UmVzdGFydHNxAH4AC8okcBp0AAhwb3N0U3RvcHNxAH4ACz94FqR0AAlub3RpZnlBbGxzcQB+AAu+xKh+dAARYXJvdW5kUG9zdFJlc3RhcnRzcQB+AAtYGUgedAAMaXNJbnN0YW5jZU9mc3EAfgALIY2jxnQAEGFyb3VuZFByZVJlc3RhcnRzcQB+AAsqewqBdAAOYXJvdW5kUG9zdFN0b3BzcQB+AAujJoXPdAAGPGluaXQ+c3EAfgALxuvsdHQACHByZVN0YXJ0c3EAfgALMtsB73QABXRhc2tzc3EAfgALL6Np13QACXVuaGFuZGxlZHNxAH4AC422B2B0AAI9PXNxAH4AC7sBWTR0AAVjbG9uZXNxAH4AC4mAFKt0AAZzZW5kZXJzcQB+AAuUCh4pdAAIdG9TdHJpbmdzcQB+AAt85Ov/dAACIT1zcQB+AAvYT6k+dAAIZ2V0Q2xhc3NzcQB+AAtc+PWJdAACbmVzcQB+AAs94EufdAASc3VwZXJ2aXNvclN0cmF0ZWd5c3EAfgALhKw6MXQAAmVxc3EAfgALDpQoiXQAAiMjc3EAfgALOQDh5XQACGZpbmFsaXplc3EAfgALb42FJnQACGhhc2hDb2Rlc3EAfgALUXVGMHQADmFyb3VuZFByZVN0YXJ0c3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AY3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAEW1hc3Rlci5QaWRNYW5hZ2VydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgB8eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgB7AHBzcQB+AIBzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AY0wACWluaGVyaXRlZHEAfgBjTAAHcGFyZW50c3EAfgBjeHEAfgCEc3EAfgB7AHBzcQB+AIB1cQB+AF4AAAAAc3EAfgB7AHBzcQB+AIB1cQB+AF4AAAAAc3EAfgB7AHBzcQB+AIB1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAA3NyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AIN0AAVBY3RvcnNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ag3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEYWtrYXNxAH4AoHQABWFjdG9yc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AKFzcQB+AJR0AAZPYmplY3RzcQB+AJhzcQB+AJt1cQB+AJ4AAAADc3EAfgCgdAAEamF2YXNxAH4AoHQABGxhbmdxAH4Ap3NxAH4AlHQAA0FueXNxAH4AmHNxAH4Am3VxAH4AngAAAAJzcQB+AKB0AAVzY2FsYXEAfgCndXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAAGbWFzdGVyc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFRo5upOXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0ADtGOlxzY2FsYS13b3Jrc3BhY2VcU2luYVBpY0NyYXdsZXJcdGFyZ2V0XHNjYWxhLTIuMTBcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFBydig5M5v18MXcyrYsNl+APbsBv
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHB+0ujoAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwBYjSRXQABHNlbGZzcQB+AAu4KPSedAAHY29udGV4dHVxAH4ACQAAACdzcQB+AAu7uJmldAAGbm90aWZ5c3EAfgALh7GNCnQAB1JlY2VpdmVzcQB+AAv9WRFedAAJbWFzdGVyUmVmc3EAfgALPOeKTHQABHdhaXRzcQB+AAtwM3DfdAANJGFzSW5zdGFuY2VPZnNxAH4AC5wmv6N0AAhob3N0bmFtZXNxAH4AC7J1PEF0AAZlcXVhbHNzcQB+AAulveIIdAAMYXNJbnN0YW5jZU9mc3EAfgAL/BkzuHQADHN5bmNocm9uaXplZHNxAH4AC9LYlf90AA0kaXNJbnN0YW5jZU9mc3EAfgALd5d5IHQAB3JlY2VpdmVzcQB+AAsnKob3dAAKcHJlUmVzdGFydHNxAH4AC53ROkB0AA1hcm91bmRSZWNlaXZlc3EAfgALhwsjnnQAC3Bvc3RSZXN0YXJ0c3EAfgAL/q9APnQACHBvc3RTdG9wc3EAfgALmCO+gXQACW5vdGlmeUFsbHNxAH4ACyVEQNh0ABFhcm91bmRQb3N0UmVzdGFydHNxAH4AC4zLrjZ0AAxpc0luc3RhbmNlT2ZzcQB+AAvI7dz9dAAQYXJvdW5kUHJlUmVzdGFydHNxAH4ACzdux2h0AA5hcm91bmRQb3N0U3RvcHNxAH4AC+nPLER0AAVTbGF2ZXNxAH4AC9H7iU90AAY8aW5pdD5zcQB+AAvA7CKCdAAIcHJlU3RhcnRzcQB+AAtQltg+dAAJdW5oYW5kbGVkc3EAfgAL94su23QAAj09c3EAfgALmAvcRXQABWNsb25lc3EAfgALFcppLHQADXBpZE1hbmFnZXJSZWZzcQB+AAsis3l1dAAGc2VuZGVyc3EAfgALhaGsjnQACHRvU3RyaW5nc3EAfgALNMxii3QAAiE9c3EAfgALOiI+iHQACGdldENsYXNzc3EAfgALutd+rnQAD2RhdGFSZWNvcmRlclJlZnNxAH4ACxBlE/d0AAJuZXNxAH4AC975S9N0ABJzdXBlcnZpc29yU3RyYXRlZ3lzcQB+AAuIWPMtdAACZXFzcQB+AAvJxc2kdAACIyNzcQB+AAs81M4bdAAIZmluYWxpemVzcQB+AAt+GVccdAAIaGFzaENvZGVzcQB+AAtDBUOfdAAOYXJvdW5kUHJlU3RhcnRzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBpeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAALc2xhdmUuU2xhdmV1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AIJ4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIEAcHNxAH4AhnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBpTAAJaW5oZXJpdGVkcQB+AGlMAAdwYXJlbnRzcQB+AGl4cQB+AIpzcQB+AIEAcHNxAH4AhnVxAH4AZAAAAABzcQB+AIEAcHNxAH4AhnVxAH4AZAAAAABzcQB+AIEAcHNxAH4AhnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AiXQABUFjdG9yc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCJc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARha2thc3EAfgCmdAAFYWN0b3JzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Ap3NxAH4AmnQABk9iamVjdHNxAH4AnnNxAH4AoXVxAH4ApAAAAANzcQB+AKZ0AARqYXZhc3EAfgCmdAAEbGFuZ3EAfgCtc3EAfgCadAADQW55c3EAfgCec3EAfgChdXEAfgCkAAAAAnNxAH4ApnQABXNjYWxhcQB+AK11cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAMeHB0AAVzbGF2ZXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUaObqTl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdAA7Rjpcc2NhbGEtd29ya3NwYWNlXFNpbmFQaWNDcmF3bGVyXHRhcmdldFxzY2FsYS0yLjEwXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABScsgXoTgr7xY9E7C1lBjc4MeuszA==
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Spider.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCA3VRPAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw3dyyq3QABHNlbGZzcQB+AAu5LeUQdAAHY29udGV4dHVxAH4ACQAAACNzcQB+AAtcehswdAAGbm90aWZ5c3EAfgALDTRMOXQAB1JlY2VpdmVzcQB+AAvVr+8NdAAEd2FpdHNxAH4AC/sORyR0AAZTcGlkZXJzcQB+AAssIJKtdAANJGFzSW5zdGFuY2VPZnNxAH4AC28Ax/V0AAZlcXVhbHNzcQB+AAvSOn//dAAMYXNJbnN0YW5jZU9mc3EAfgALvQwofHQADHN5bmNocm9uaXplZHNxAH4AC4Cnxi90AA0kaXNJbnN0YW5jZU9mc3EAfgALN3Wsp3QAB3JlY2VpdmVzcQB+AAtKv/eadAAKcHJlUmVzdGFydHNxAH4AC+l2p8l0AA1hcm91bmRSZWNlaXZlc3EAfgALLArXYXQAC3Bvc3RSZXN0YXJ0c3EAfgAL/9iLr3QACHBvc3RTdG9wc3EAfgALXpJ+pnQACW5vdGlmeUFsbHNxAH4AC8IOLhF0ABFhcm91bmRQb3N0UmVzdGFydHNxAH4ACwKqivF0AAxpc0luc3RhbmNlT2ZzcQB+AAudzB3ddAAQYXJvdW5kUHJlUmVzdGFydHNxAH4AC0QSNeF0AA5hcm91bmRQb3N0U3RvcHNxAH4ACyuN+Jt0AAY8aW5pdD5zcQB+AAs8rtkQdAAIcHJlU3RhcnRzcQB+AAuZXTLpdAAJdW5oYW5kbGVkc3EAfgALO7itKnQAAj09c3EAfgALhnBqs3QABWNsb25lc3EAfgALtN2ifHQABnNlbmRlcnNxAH4AC03v9W50AAh0b1N0cmluZ3NxAH4AC5fDeu50AAIhPXNxAH4AC/v77IJ0AAhnZXRDbGFzc3NxAH4AC6F1wQ10AAJuZXNxAH4ACyWY3Nh0ABJzdXBlcnZpc29yU3RyYXRlZ3lzcQB+AAu5TOE3dAACZXFzcQB+AAvd50A1dAACIyNzcQB+AAvHtm2wdAAIZmluYWxpemVzcQB+AAtEeUiydAAIaGFzaENvZGVzcQB+AAuQHIk4dAAOYXJvdW5kUHJlU3RhcnRzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBheHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAMc2xhdmUuU3BpZGVydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgB6eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgB5AHBzcQB+AH5zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AYUwACWluaGVyaXRlZHEAfgBhTAAHcGFyZW50c3EAfgBheHEAfgCCc3EAfgB5AHBzcQB+AH51cQB+AFwAAAAAc3EAfgB5AHBzcQB+AH51cQB+AFwAAAAAc3EAfgB5AHBzcQB+AH51cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAA3NyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AIF0AAVBY3RvcnNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AgXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEYWtrYXNxAH4AnnQABWFjdG9yc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJ9zcQB+AJJ0AAZPYmplY3RzcQB+AJZzcQB+AJl1cQB+AJwAAAADc3EAfgCedAAEamF2YXNxAH4AnnQABGxhbmdxAH4ApXNxAH4AknQAA0FueXNxAH4AlnNxAH4AmXVxAH4AnAAAAAJzcQB+AJ50AAVzY2FsYXEAfgCldXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAAFc2xhdmVzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVGjm6k5dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQAO0Y6XHNjYWxhLXdvcmtzcGFjZVxTaW5hUGljQ3Jhd2xlclx0YXJnZXRcc2NhbGEtMi4xMFxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUywJLCHHoBLFQwc7KDoe6bguLCx0=
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD/n9QcAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAALnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cIk0YdZ0AAZub3RpZnlzcQB+AAyNwtK0dAAHdW5hcHBseXNxAH4ADCrAlYN0AAdjdXJyaWVkc3EAfgAM+EbOj3QACFNodXRkb3duc3EAfgAM/ciANHQABHdhaXRzcQB+AAxhdzNxdAAOY29weSRkZWZhdWx0JDJzcQB+AAzPcxP6dAANJGFzSW5zdGFuY2VPZnNxAH4ADIlIww10AAhob3N0bmFtZXNxAH4ADAdHRyx0AAdjb21wb3Nlc3EAfgAMWcP3yXQADHByb2R1Y3RBcml0eXNxAH4ADP4Roch0AAZlcXVhbHNzcQB+AAzX4ZXtdAAMYXNJbnN0YW5jZU9mc3EAfgAMBqe7kHQADHN5bmNocm9uaXplZHNxAH4ADIQAVvN0AA0kaXNJbnN0YW5jZU9mc3EAfgAMZ0QGOnQAB2FuZFRoZW5zcQB+AAxeGnd0dAAGdHVwbGVkc3EAfgAMbEyZ8nQACGNhbkVxdWFsc3EAfgAMNgQARHQABVN0YXJ0c3EAfgAMV0AcmnQADXByb2R1Y3RQcmVmaXhzcQB+AAx0GjWIdAAKVW5yZWdpc3RlcnNxAH4ADHiGOSt0AAlub3RpZnlBbGxzcQB+AAw75Bu/dAALcmVhZFJlc29sdmVzcQB+AAykYg6ldAAMaXNJbnN0YW5jZU9mc3EAfgAMdzQLMnQACHNsYXZlcmVmc3EAfgAMBU9aNXQABjxpbml0PnNxAH4ADFUKy1N0AAhNZXNzYWdlc3NxAH4ADFInjpV0AAVhcHBseXNxAH4ADMnXzfR0AAI9PXNxAH4ADPEyk0d0AAVjbG9uZXNxAH4ADOrDUll0AA1waWRNYW5hZ2VyUmVmc3EAfgAM2opbinQABGNvcHlzcQB+AAwOn3TudAAIdG9TdHJpbmdzcQB+AAzNhBW+dAACIT1zcQB+AAzvGxggdAAIZ2V0Q2xhc3NzcQB+AAz2KmZydAAOY29weSRkZWZhdWx0JDFzcQB+AAwLJc96dAAPZGF0YVJlY29yZGVyUmVmc3EAfgAMxGAf3XQABFN0b3BzcQB+AAz7Ud92dAACbmVzcQB+AAz5P5P0dAAKTWFzdGVySW5mb3NxAH4ADChwFvR0AAJlcXNxAH4ADAilzoV0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAxd06zhdAAIUmVnaXN0ZXJzcQB+AAxshrYzdAACIyNzcQB+AAwT1ezudAAIZmluYWxpemVzcQB+AAxTcL1HdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAzCx0zSdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBzeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAANdXRpbC5NZXNzYWdlc3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AIx4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIsAcHNxAH4AkHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBzTAAJaW5oZXJpdGVkcQB+AHNMAAdwYXJlbnRzcQB+AHN4cQB+AJRzcQB+AIsAcHNxAH4AkHVxAH4AbgAAAABzcQB+AIsAcHNxAH4AkHVxAH4AbgAAAABzcQB+AIsAcHNxAH4AkHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ak3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ak3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AsHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AsXNxAH4ApHQAA0FueXNxAH4AqHNxAH4Aq3VxAH4ArgAAAAJzcQB+ALB0AAVzY2FsYXEAfgC3dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAEdXRpbHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUaObqTl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA7Rjpcc2NhbGEtd29ya3NwYWNlXFNpbmFQaWNDcmF3bGVyXHRhcmdldFxzY2FsYS0yLjEwXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQcXmtKrIuIaC3DC6YmB8qEcO2aOg==
+external apis:
+0 items
+source infos:
+7 items
+F:\scala-workspace\SinaPicCrawler\src\main\scala\core\Main.scala -> 
+AAAAAAAAAAA=
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\DataRecorder.scala -> 
+AAAAAAAAAAA=
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\Master.scala -> 
+AAAAAAAAAAA=
+F:\scala-workspace\SinaPicCrawler\src\main\scala\master\PidManager.scala -> 
+AAAAAAAAAAA=
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Slave.scala -> 
+AAAAAAAAAAA=
+F:\scala-workspace\SinaPicCrawler\src\main\scala\slave\Spider.scala -> 
+AAAAAAAAAAA=
+F:\scala-workspace\SinaPicCrawler\src\main\scala\util\Messages.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUaObqTl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAO0Y6XHNjYWxhLXdvcmtzcGFjZVxTaW5hUGljQ3Jhd2xlclx0YXJnZXRcc2NhbGEtMi4xMFxjbGFzc2VzdAABLw==
